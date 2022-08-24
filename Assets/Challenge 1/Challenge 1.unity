@@ -473,6 +473,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7317731328111405690, guid: 5f0963a629b97442587b7f3ece766e42, type: 3}
   m_PrefabInstance: {fileID: 347156382}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &375161646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
+  m_PrefabInstance: {fileID: 1239094319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &375161650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375161646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea97f3b716a1c4b429c3c9f33bf4e2c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propeller: 5
 --- !u!850595691 &408738196
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -632,7 +650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 573453567e55b468d959b66ab676a102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plane: {fileID: 0}
+  plane: {fileID: 825415029}
 --- !u!1 &673814960
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,9 +911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0232a093d67e448b7a80e945acf8e227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  rotationSpeed: 100
-  verticalInput: 0
 --- !u!1 &899755176
 GameObject:
   m_ObjectHideFlags: 0
